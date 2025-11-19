@@ -1,7 +1,7 @@
 {
   "name": "fut-news",
   "version": "1.0.0",
-  "description": "1. Bucar informações de partidas com [API futebol](https://www.api-futebol.com.br/) 2. Buscar tweets com [API do X](https://developer.x.com/en/docs/x-api) 3. Buscar artigos de notícias [NewsAPI](NewsAPI.org)",
+  "description": "",
   "homepage": "https://github.com/angelo-Cahetel/FutNews#readme",
   "bugs": {
     "url": "https://github.com/angelo-Cahetel/FutNews/issues"
@@ -12,10 +12,13 @@
   },
   "license": "MIT",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch"
   },
